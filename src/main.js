@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 import Routes from './routes'
 
 Vue.use(VueRouter);
-import home from './views/home.vue';
+// import home from './views/home.vue';
 
 
 Vue.config.productionTip = false
