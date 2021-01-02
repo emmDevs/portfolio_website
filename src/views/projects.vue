@@ -1,21 +1,21 @@
 <template>
   <div>
       <nav-bar></nav-bar>
-      <p>This will have all my projects</p>
+        <!-- <video width="320" height="240" controls src="@/assets/PokeVue.mov"></video> -->
       <foot-note></foot-note>
   </div>
 </template>
 
 <script>
 
-import header from '../components/header.vue'
-import footer from '../components/footer.vue'
+import navBar from '../components/header.vue'
+import footNote from '../components/footer.vue'
 
 export default {
     name: 'projects',
     components: {
-        'nav-bar': header,
-        'foot-note': footer
+        'nav-bar': navBar,
+        'foot-note': footNote
     }
 
 }

@@ -19,7 +19,7 @@
 
 <script>
 export default {
-    name: 'header',
+    name: 'navBar',
 
 }
 </script>

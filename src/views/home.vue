@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import header from '../components/header.vue'
-import footer from '../components/footer.vue'
+import navBar from '../components/header.vue'
+import footNote from '../components/footer.vue'
 
 
 export default {
   components: {
-    'nav-bar': header,
-    'foot-note': footer
+    'nav-bar': navBar,
+    'foot-note': footNote
   }
     
 }
