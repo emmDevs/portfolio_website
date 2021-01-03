@@ -1,7 +1,9 @@
 <template>
   <div>
       <nav-bar></nav-bar>
-        <!-- <video width="320" height="240" controls src="@/assets/PokeVue.mov"></video> -->
+        <!-- <video width="320" height="240" controls >
+            <source src="@/assets/PokeVue.mov"> -->
+        </video>
       <foot-note></foot-note>
   </div>
 </template>
