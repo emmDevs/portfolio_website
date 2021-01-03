@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
   <router-view></router-view>
   </div>
 </template>
@@ -30,9 +30,9 @@ export default {
 </script>
 
 <style>
-.container{
-  background-color: darkgray;
+body{
+  margin: 0;
+  background-color: #484848;
 }
-
 
 </style>

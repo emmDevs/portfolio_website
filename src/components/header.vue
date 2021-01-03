@@ -25,19 +25,14 @@ export default {
 </script>
 
 <style>
-
-.nav-bar-container{
-  display: flex;
-  background-color: darkgray;
-}
-
 .nav-bar-container > ul > li{
   list-style: none;
   display: inline;
+
 }
 
 .list{
-  color: white;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24;
   font-weight: bold;
