@@ -7,7 +7,21 @@
         </video>
         </div>
         <div class="B">
-          <p> All the blurb about PokeVue</p>
+          <h3>PokeVue</h3>
+          <h4>The Brief</h4>
+          <p>Build an app that allows the user to track Countries and Cities they want to visit
+            and those they have already visited. <p>
+          <h4>The Tech Stack</h4>  
+          <ul>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Flask</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <p>This was a group project that was planned and written over a 6 day period.
+</p>
+        <a href="https://github.com/emmDevs/pokeJson.git">GitHub Link to Repo</a>
         </div>
         <div class="C">
         <video width="320" height="240" controls >
@@ -15,7 +29,21 @@
         </video>
         </div>
         <div class="D">
-          <p>All the blurb about On Top Of The World</p>
+          <h3>On Top Of The World</h3>
+          <h4>The Brief</h4>
+          <p>Build an app that allows the user to track Countries and Cities they want to visit
+            and those they have already visited. <p>
+          <h4>The Tech Stack</h4>  
+          <ul>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Flask</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <p>This was a solo project that was planned and written over a 6 day period.
+</p>
+          <a href="https://github.com/emmDevs/on_top_of_the_world.git">Github Link to Repo</a>
         </div>
         </div>
   </div>

@@ -2,16 +2,16 @@
   <nav class='nav-bar-container'>
       <ul>
           <li>
-              <router-link class="list" to="/">Home</router-link>
+              <router-link class="list" to="/" exact>Home</router-link>
             </li>
               <li>
-              <router-link class="list" to="/about">About Me</router-link>
+              <router-link class="list" to="/about" exact>About Me</router-link>
               </li>
               <li>
-              <router-link class="list" to="/projects">Projects</router-link>
+              <router-link class="list" to="/projects" exact>Projects</router-link>
               </li>
               <li>
-              <router-link class="list" to="/contact">Contact Me</router-link>
+              <router-link class="list" to="/contact" exact>Contact Me</router-link>
           </li>
       </ul>
   </nav>
@@ -44,5 +44,10 @@ export default {
   text-decoration: none;
   margin-left: 36px;
 }
+
+.list.router-link-active{
+  color: pink;
+}
+
 
 </style>

@@ -1,8 +1,6 @@
 <template>
   <div>
-      <div class="parent-container">
-      <p>Contact Details Here</p>
-      </div>
+      <p> </p>
   </div>
 </template>
 
