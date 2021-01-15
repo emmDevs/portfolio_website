@@ -3,9 +3,9 @@
       <nav-bar></nav-bar>
       <div class="parent-container">
       <p>projects will go here</p>
-        <!-- <video width="320" height="240" controls >
-            <source src="@/assets/PokeVue.mov"> -->
-        <!-- </video> -->
+        <video width="320" height="240" controls >
+            <source src="@/assets/OnTopOfTheWorld.mp4"> -->
+        </video>
         </div>
       <foot-note></foot-note>
   </div>
