@@ -1,11 +1,15 @@
 <template>
   <div>
       <div class="parent-container flex-container">
-          <div class="A"> <p>photo</p></div>
+          <div class="A"> 
+              <img class="photo-about" src="@/assets/AboutPhoto1.jpeg"/>
+          </div>
           <div class="B"><p>blurb</p></div>
           <div class="C"><p>blurb</p></div>
-          <div class="D"><p>photo</p></div>
-          <!-- <div class="E"><p>photo</p></div>
+          <div class="D">
+              <img class="photo-about" src="@/assets/Beach.jpeg"/>
+            </div>          
+            <!-- <div class="E"><p>photo</p></div>
           <div class="F"><p>blurb</p></div> -->
       </div>
   </div>
@@ -38,6 +42,7 @@ export default {
 
 .A{
     grid-area: A;
+    padding-top: 36px;
 }
 
 .B{
@@ -58,6 +63,11 @@ export default {
 
 .F{
     grid-area: F;
+}
+
+.photo-about{
+    height:300px;
+    width: 450px;
 }
 
 /* .flex-container{

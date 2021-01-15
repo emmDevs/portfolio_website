@@ -25,10 +25,15 @@ export default {
 </script>
 
 <style>
+
+.nav-bar-container > ul{
+  margin-top: 0;
+  padding-top: 25px;
+}
+
 .nav-bar-container > ul > li{
   list-style: none;
   display: inline;
-
 }
 
 .list{

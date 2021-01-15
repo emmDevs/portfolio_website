@@ -27,8 +27,7 @@ export default {
   padding-top: 15px;
   padding-bottom: 15px;
   height: 50px;
-  
-}
+  }
 
 .icon-container > a{
   margin-right: 25px;
