@@ -1,6 +1,9 @@
 <template>
   <div>
-  <router-view></router-view>
+    <nav-bar></nav-bar>
+  <router-view class="main-container">
+  </router-view>
+  <foot-note></foot-note>
   </div>
 </template>
 
@@ -33,6 +36,11 @@ export default {
 body{
   margin: 0;
   background-color: #484848;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.main-container{
+  height: 650px;
 }
 
 </style>

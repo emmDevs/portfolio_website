@@ -1,15 +1,13 @@
 <template>
   <div>
-      <nav-bar></nav-bar>
       <div class="parent-container flex-container">
-          <div class="box one"></div>
-          <div class="box two"></div>
-          <div class="box three"></div>
-          <div class="box four"></div>
-          <div class="box five"></div>
-          <div class="box six"></div>
+          <div class="A"> <p>photo</p></div>
+          <div class="B"><p>blurb</p></div>
+          <div class="C"><p>blurb</p></div>
+          <div class="D"><p>photo</p></div>
+          <!-- <div class="E"><p>photo</p></div>
+          <div class="F"><p>blurb</p></div> -->
       </div>
-      <foot-note></foot-note>
   </div>
 </template>
 
@@ -30,7 +28,39 @@ export default {
 
 <style>
 
-.flex-container{
+.parent-container{
+    display: grid;
+    max-width: 90%;
+    margin: 1rem auto;
+    grid-template-areas: "A A B B"
+                        "C C D D"
+}
+
+.A{
+    grid-area: A;
+}
+
+.B{
+    grid-area: B;
+}
+
+.C{
+    grid-area: C;
+}
+
+.D{
+    grid-area: D;
+}
+
+.E{
+    grid-area: E;
+}
+
+.F{
+    grid-area: F;
+}
+
+/* .flex-container{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row
@@ -42,7 +72,7 @@ export default {
     border: black solid 5px;
     
 
-}
+} */
 
 
 

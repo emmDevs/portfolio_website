@@ -1,10 +1,8 @@
 <template>
   <div>
-      <nav-bar></nav-bar>
       <div class="parent-container">
       <p>Contact Details Here</p>
       </div>
-      <foot-note></foot-note>
   </div>
 </template>
 

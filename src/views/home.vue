@@ -1,7 +1,6 @@
 <template>
   
   <div>
-    <nav-bar></nav-bar>
     <div class="parent-container home">
     <aside class="aside-container" >
       <h1 class="my-name">Emma Hack</h1>
@@ -12,7 +11,6 @@
       <img class="photo" src="@/assets/IMG_2876.jpeg">
       </section>
       </div>
-    <foot-note></foot-note>
   </div>
 </template>
 
@@ -32,14 +30,14 @@ export default {
 
 <style>
 
-.home{
+/* .home{
   position: relative;
-}
+} */
 
 .img-container{
   display: flex;
   justify-content: flex-end;
-  height: 700px;
+  /* height: 700px; */
   margin-top: 100px;
 }
 
@@ -53,11 +51,6 @@ export default {
   width: 500px;
   border-radius: 250px;
   margin-right: 175px;
-}
-
-p{
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .my-name{
