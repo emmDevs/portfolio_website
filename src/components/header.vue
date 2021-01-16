@@ -42,11 +42,37 @@ export default {
   font-size: 24;
   font-weight: bold;
   text-decoration: none;
+  margin-right: 36px;
+}
+
+.list.router-link-active{
+  color: black;
+}
+
+@media (min-width: 1080px){
+
+.nav-bar-container > ul{
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+.nav-bar-container > ul > li{
+  list-style: none;
+  display: inline;
+}
+
+.list{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24;
+  font-weight: bold;
+  text-decoration: none;
   margin-left: 36px;
 }
 
 .list.router-link-active{
   color: black;
+}
 }
 
 

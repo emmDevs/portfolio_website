@@ -33,6 +33,12 @@ export default {
 </script>
 
 <style>
+
+body{
+    background-color: hotpink;
+  }
+
+@media (min-width: 1080px){
 body{
   margin: 0;
   background-color: #484848;
@@ -43,5 +49,10 @@ body{
 .main-container{
   height: auto;
 }
+}
+
+
+  
+
 
 </style>
