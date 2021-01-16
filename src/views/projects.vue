@@ -21,7 +21,7 @@
           </ul>
           <p>This was a group project that was planned and written over a 6 day period.
 </p>
-        <a href="https://github.com/emmDevs/pokeJson.git">GitHub Link to Repo</a>
+        <a href="https://github.com/emmDevs/pokeJson.git" style="color:black">GitHub Link to Repo</a>
         </div>
         <div class="C">
         <h3 class="title">On Top Of The World</h3>
@@ -43,7 +43,7 @@
           </ul>
           <p>This was a solo project that was planned and written over a 6 day period.
 </p>
-          <a href="https://github.com/emmDevs/on_top_of_the_world.git">Github Link to Repo</a>
+          <a href="https://github.com/emmDevs/on_top_of_the_world.git" style="color: black">Github Link to Repo</a>
         </div>
         </div>
   </div>
