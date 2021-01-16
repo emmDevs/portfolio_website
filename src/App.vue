@@ -35,8 +35,11 @@ export default {
 <style>
 
 body{
-    background-color: hotpink;
+    background-color:#484848;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
 
 @media (min-width: 1080px){
 body{

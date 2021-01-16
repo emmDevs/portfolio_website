@@ -31,21 +31,31 @@ export default {
 
 .parent-container{
     display: block;
-    max-width: 90%;
+    /* max-width: 90%; */
     /* width: 350px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Babout{
+    padding-left:20px;
+    padding-right:25px;
+}
+
+.Cabout{
+    padding-left:20px;
+    padding-right:25px;
 }
 
 
 .photo-about1{
     margin-top: 50px;
-    height:150px;
-    width: 350px;
+    height:100px;
+    width: 300px;
 }
 
 .photo-about{
-    height:300px;
-    width: 450px;
+    height:150px;
+    width: 300px;
 }
 
 @media (min-width: 1080px){
@@ -53,7 +63,7 @@ export default {
 .parent-container{
     display: grid;
     max-width: 90%;
-    /* margin: 1rem auto; */
+    margin: 1rem auto;
     grid-template-areas: "A A B B"
                         "C C D D"
 }
@@ -66,6 +76,7 @@ export default {
 .Babout{
     grid-area: B;
     padding: 50px;
+    margin-left: 50px;
 }
 
 .Cabout{
@@ -89,6 +100,7 @@ export default {
     height:300px;
     width: 450px;
     padding: 50px;
+    margin-left: 50px;
 }
 }
 

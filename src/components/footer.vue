@@ -43,6 +43,7 @@ export default {
 
 .date{
   text-align:center;
+  color: black;
 }
 
 .icon-container > a{

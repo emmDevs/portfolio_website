@@ -105,15 +105,15 @@ h2{
   height: 500px;
   width: 500px;
   border-radius: 250px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
 }
 
 .Amy-name{
   grid-area: A;
   font-size: 90px;
-  margin-top: 150px;
+  margin-top: 100px;
   }
 
 h2{

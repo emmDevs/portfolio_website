@@ -110,7 +110,8 @@ export default {
 
 .Bproject{
   grid-area: B;
-  padding-left: 50px;
+  padding-left: 150px;
+  margin-left: 50px;
 }
 
 .C{
@@ -120,7 +121,7 @@ export default {
 
 .Dproject{
   grid-area: D;
-  padding-left: 50px;
+  padding-left: 150px;
   padding-top: 80px;
 }
 
