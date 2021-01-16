@@ -1,8 +1,16 @@
 <template>
   
   <div>
-    <div class="photo-container">
-    <img class="photo" src="@/assets/IMG_2876.jpeg">
+    <div class="home-container">
+    <div class="text">
+       <h1 class="Amy-name">Emma Hack</h1>
+       <div class="Csoftware">
+       <h2 class="software">Software</h2>
+       <h2 class="developer">Developer</h2>
+         </div>
+    </div>
+    <div>
+    <img class="Bphoto" src="@/assets/IMG_2876.jpeg">
     </div>
     <!-- <h1 class="my-name">Emma Hack</h1>
     <img class="photo" src="@/assets/IMG_2876.jpeg">
@@ -10,6 +18,7 @@
       <h2 class="software">Software</h2>
       <h2 class="developer" >Developer</h2>
       </div> -->
+      </div>
       </div>
 </template>
 
@@ -29,35 +38,67 @@ export default {
 
 <style>
 
-.photo-container{
+/* .photo-container{
+  
   text-align: right;
+} */
+
+.home-container{
+  display: grid;
+  max-width: 90%;
+  margin: 1rem auto;
+  grid-template-areas: "A A B B"
+                      "C C B B"
 }
 
-.photo {
+.Bphoto{
+  grid-area: B;
   height: 500px;
   width: 500px;
   border-radius: 250px;
-  margin-top: 50px;
-  margin-right: 175px;
+  margin-top: 150px;
+  /* margin-right: 175px; */
+  margin-bottom: 150px;
 
 }
 
-.my-name{
+/* .photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 250px;
+  margin-top: 50px;
+  /* margin-right: 175px; */
+   
+/* } */
+
+/* .text{
+  width: 40%;
+} */
+
+.Amy-name{
+  grid-area: A;
   font-size: 90px;
+  margin-top: 150px;
   }
 
 h2{
     font-size: 50px;
   }
 
-.software{
-  margin-left: 200px;
-  margin-bottom: 0;
+.Csoftware{
+  grid-area: C;
+  /* margin-left: 200px;
+  margin-bottom: 0; */
   padding-top: 80px;
   }
 
+.software{
+  margin-left: 200px;
+  margin-bottom: 0;
+}
+
 .developer{
-  margin-left: 300px;
+  margin-left: 225px;
   margin-top: 0px;
 }
 

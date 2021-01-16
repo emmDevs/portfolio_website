@@ -1,10 +1,10 @@
 <template>
   <div>
       <div class="parent-container flex-container">
-          <div class="A"> 
+          <div class="Aphoto"> 
               <img class="photo-about" src="@/assets/AboutPhoto1.jpeg"/>
           </div>
-          <div class="B"><p>I am an Edinburgh based Software Developer with a creative and problem solving background.  In October 2020 I started on <b>Codeclan's Professional Software Development </b>Course.  This is an Industry Led 16 week immersive course which is SQA approved and involved more than 800 hours of coding.  It teaches software fundamentals and skills including Python, Javascript, Java, HTML, CSS, Agile methodoligies, Restful API's and UX design.  With a strong emphasis on the SOLID principles of OOP and Test Driven Development I have used the following technologies and frameworks; GitHub, PostgreSQL, MongoDB, Express, Flask, Node,js, Vue.js.   </p></div>
+          <div class="Babout"><p>I am an Edinburgh based Software Developer with a creative and problem solving background.  In October 2020 I started on <b>Codeclan's Professional Software Development </b>Course.  This is an Industry Led 16 week immersive course which is SQA approved and involved more than 800 hours of coding.  It teaches software fundamentals and skills including Python, Javascript, Java, HTML, CSS, Agile methodoligies, Restful API's and UX design.  With a strong emphasis on the SOLID principles of OOP and Test Driven Development I have used the following technologies and frameworks; GitHub, PostgreSQL, MongoDB, Express, Flask, Node,js, Vue.js.   </p></div>
           <div class="Cabout"><p>When I'm not coding I love being outdoors, especially at the beach with my pups!  I am an avid reader, Love cooking (and eating..) and enjoy crocheting funky blankets to help me relax (and keep me cosy!).</p></div>
           <div class="Dphoto">
               <img class="photo-about" src="@/assets/Beach.jpeg"/>
@@ -40,12 +40,12 @@ export default {
                         "C C D D"
 }
 
-.A{
+.Aphoto{
     grid-area: A;
     padding-top: 36px;
 }
 
-.B{
+.Babout{
     grid-area: B;
     padding: 50px;
 }

@@ -13,8 +13,8 @@ export default [
     {path: '/projects',
     name: 'Projects',
     component: projects},
-    {path: '/contact',
-    name: 'Contact',
-    component: contact}
+    // {path: '/contact',
+    // name: 'Contact',
+    // component: contact}
     
 ]

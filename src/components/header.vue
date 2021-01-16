@@ -10,9 +10,9 @@
               <li>
               <router-link class="list" to="/projects" exact>Projects</router-link>
               </li>
-              <li>
+              <!-- <li>
               <router-link class="list" to="/contact" exact>Contact Me</router-link>
-          </li>
+          </li> -->
       </ul>
   </nav>
 </template>
@@ -37,7 +37,7 @@ export default {
 }
 
 .list{
-  color: black;
+  color:white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24;
   font-weight: bold;
@@ -46,7 +46,7 @@ export default {
 }
 
 .list.router-link-active{
-  color: pink;
+  color: black;
 }
 
 

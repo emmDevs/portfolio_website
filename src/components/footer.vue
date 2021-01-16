@@ -2,10 +2,10 @@
   <div class="icon-container">
     <p>Emma Hack 2021</p>
     <a href="mailto: ehack78@gmail.com">
-      <i class="far fa-envelope fa-2x"></i>
+      <i class="far fa-envelope fa-2x" style="color: black"></i>
     </a>
     <a href="http://www.myroadtocode.co.uk/">
-      <i class="fab fa-blogger-b fa-2x"></i>
+      <i class="fab fa-blogger-b fa-2x" style="color: orange"></i>
     </a>
       <a href="https://github.com/emmDevs">
         <i class="fab fa-github fa-2x" style="color: black"></i>

@@ -14,7 +14,7 @@ import home from './views/home.vue'
 import footNote from './components/footer.vue'
 import about from './views/about.vue'
 import projects from './views/projects.vue'
-import contact from './views/contact.vue'
+// import contact from './views/contact.vue'
 
 export default {
   name: 'app',
@@ -26,7 +26,7 @@ export default {
     'foot-note': footNote,
     'about': about,
     'projects': projects,
-    'contact': contact
+    // 'contact': contact
   }
 
 }
@@ -36,11 +36,12 @@ export default {
 body{
   margin: 0;
   background-color: #484848;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .main-container{
-  height: 650px;
+  height: auto;
 }
 
 </style>
