@@ -12,47 +12,25 @@
     <div>
     <img class="Bphoto" src="@/assets/IMG_2876.jpeg">
     </div>
-    <!-- <h1 class="my-name">Emma Hack</h1>
-    <img class="photo" src="@/assets/IMG_2876.jpeg">
-    <div class="aside-container" >
-      <h2 class="software">Software</h2>
-      <h2 class="developer" >Developer</h2>
-      </div> -->
       </div>
       </div>
 </template>
 
 <script>
-import navBar from '../components/header.vue'
-import footNote from '../components/footer.vue'
-
 
 export default {
-  components: {
-    'nav-bar': navBar,
-    'foot-note': footNote
-  }
     
 }
 </script>
 
 <style>
 
-/* .home-container{
-  display: grid;
-  max-width: 90%;
-  margin: 1rem auto;
-  grid-template-areas: "A A"
-                      "C C"
-                      "B B"
-} */
 
 .home-container{
   text-align: center;
 }
 
 .Bphoto{
-  /* grid-area: B; */
   height: 250px;
   width: 250px;
   border-radius: 250px;
@@ -62,7 +40,6 @@ export default {
 }
 
 .Amy-name{
-  /* grid-area: A; */
   font-size: 90px;
   margin-top: 50px;
   margin-bottom: 0px;
@@ -72,20 +49,12 @@ h2{
     font-size: 50px;
   }
 
-.Csoftware{
-  /* grid-area: C; */
-  /* margin-left: 200px;
-  margin-bottom: 0; */
-  /* padding-top: 80px; */
-  }
 
 .software{
-  /* margin-left: 200px; */
   margin-bottom: 0;
 }
 
 .developer{
-  /* margin-left: 225px; */
   margin-top: 0px;
 }
 
@@ -122,8 +91,6 @@ h2{
 
 .Csoftware{
   grid-area: C;
-  /* margin-left: 200px;
-  margin-bottom: 0; */
   padding-top: 80px;
   }
 

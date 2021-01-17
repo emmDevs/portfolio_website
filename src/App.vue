@@ -18,8 +18,6 @@ import projects from './views/projects.vue'
 
 export default {
   name: 'app',
-  data (){},
-  mounted (){},
   components: {
     'nav-bar': navBar,
     'home': home,

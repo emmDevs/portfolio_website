@@ -14,16 +14,10 @@
 
 <script>
 
-import navBar from '../components/header.vue'
-import footNote from '../components/footer.vue'
 
 export default {
-    name: 'about',
-    components: {
-        'nav-bar': navBar,
-        'foot-note': footNote
-    }
-
+    name: 'about'
+    
 }
 </script>
 
@@ -31,8 +25,6 @@ export default {
 
 .parent-container{
     display: block;
-    /* max-width: 90%; */
-    /* width: 350px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

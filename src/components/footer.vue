@@ -34,7 +34,6 @@ export default {
 
 .icon-container{
   display: flex;
-  /* text-align: center; */
   padding-top: 15px;
   padding-bottom: 15px;
   height: 50px;
@@ -79,7 +78,6 @@ export default {
 
 .date{
   color: black;
-  /* margin-right: 400px; */
 }
 
 .date-container{

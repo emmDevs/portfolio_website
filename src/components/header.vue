@@ -10,9 +10,7 @@
               <li>
               <router-link class="list" to="/projects" exact>Projects</router-link>
               </li>
-              <!-- <li>
-              <router-link class="list" to="/contact" exact>Contact Me</router-link>
-          </li> -->
+            
       </ul>
   </nav>
 </template>
