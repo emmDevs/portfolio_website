@@ -55,6 +55,14 @@ export default {
   margin-right: 400px;
 }
 
+@media (min-width: 768px){
+  
+.icon-container{
+  display: flex;
+  justify-content: flex-end;
+}
+}
+
 @media (min-width: 1080px){
 
 .icon-container{

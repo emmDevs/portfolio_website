@@ -39,6 +39,12 @@ body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  
+  @media (min-width: 768px){
+  
+  
+  
+  }
 
 
 @media (min-width: 1080px){
