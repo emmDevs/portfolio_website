@@ -15,8 +15,11 @@
                 </p> 
                 <p>
                     <b>Want to know more?
-                    </b>  Follow my blog, send me an email or connect with me on Linkedin using the icons below. 
+                    </b>  Follow my <a class="blog_link" href="https://www.myroadtocode.co.uk">blog</a>, send me an email or connect with me on Linkedin using the icons below. 
                 </p>
+                <a href="https://www.myroadtocode.co.uk">
+                    <button class="blog_button">Read My Blog Here!</button>
+                </a>
             </div>
             <div class="Dphoto">
                 <img class="photo-about" src="@/assets/Beach.jpeg"/> 
@@ -63,6 +66,15 @@ export default {
     width: 300px;
 }
 
+.blog_link{
+    color: white;
+    text-decoration: none;
+}
+
+.blog_button{
+    margin-bottom: 36px;
+}
+
 @media (min-width: 1080px){
 
 .parent-container{
@@ -76,6 +88,8 @@ export default {
 .Aphoto{
     grid-area: A;
     padding-top: 36px;
+    height: 250px;
+    width: 550px;
 }
 
 .Babout{
@@ -97,8 +111,9 @@ export default {
 }
 
 .photo-about1{
-    height:250px;
-    width: 550px;
+    width: auto;
+    /* height:250px;
+    width: 550px; */
 }
 
 .photo-about{
