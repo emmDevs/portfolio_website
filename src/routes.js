@@ -1,20 +1,16 @@
-import home from './views/home.vue'
-import about from './views/about.vue'
-import projects from './views/projects.vue'
-import contact from './views/contact.vue'
+import home from './views/Home.vue'
+import about from './views/About.vue'
+import projects from './views/Projects.vue'
 
 export default [
     {path: '/', 
-    name: 'Home',
+    name: 'home',
     component: home},
     {path: '/about',
-    name: 'About',
+    name: 'about',
     component: about},
     {path: '/projects',
-    name: 'Projects',
+    name: 'projects',
     component: projects},
-    // {path: '/contact',
-    // name: 'Contact',
-    // component: contact}
     
 ]

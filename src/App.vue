@@ -1,20 +1,18 @@
 <template>
   <div>
     <nav-bar class="nav-bar"></nav-bar>
-  <router-view class="main-container">
-  </router-view>
-  <foot-note></foot-note>
+    <router-view class="main-container"></router-view>
+    <foot-note></foot-note>
   </div>
 </template>
 
 <script>
 
-import navBar from './components/header.vue'
-import home from './views/home.vue'
-import footNote from './components/footer.vue'
-import about from './views/about.vue'
-import projects from './views/projects.vue'
-// import contact from './views/contact.vue'
+import navBar from './components/Header.vue'
+import home from './views/Home.vue'
+import footNote from './components/Footer.vue'
+import about from './views/About.vue'
+import projects from './views/Projects.vue'
 
 export default {
   name: 'app',
@@ -24,7 +22,7 @@ export default {
     'foot-note': footNote,
     'about': about,
     'projects': projects,
-    // 'contact': contact
+    
   }
 
 }
@@ -57,9 +55,5 @@ body{
   height: auto;
 }
 }
-
-
-  
-
 
 </style>

@@ -2,18 +2,18 @@
   
   <div>
     <div class="home-container">
-    <div class="text">
-       <h1 class="Amy-name">Emma Hack</h1>
-       <div class="Csoftware">
-       <h2 class="software">Software</h2>
-       <h2 class="developer">Developer</h2>
-         </div>
-    </div>
-    <div>
-    <img class="Bphoto" src="@/assets/IMG_2876.jpeg">
-    </div>
+      <div class="text">
+        <h1 class="Amy-name">Emma Hack</h1>
+      <div class="Csoftware">  
+        <h2 class="software">Software</h2>
+        <h2 class="developer">Developer</h2>
       </div>
       </div>
+      <div>
+        <img class="Bphoto" src="@/assets/IMG_2876.jpeg">
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -100,7 +100,7 @@ h2{
 }
 
 .developer{
-  margin-left: 225px;
+  margin-left: 300px;
   margin-top: 0px;
 }
 }

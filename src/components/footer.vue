@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <footer>
     <div class="date-container">
-    <p class="date">Emma Hack 2021</p>
+      <p class="date">Emma Hack 2021</p>
     </div>
   <div class="icon-container">
     <a href="mailto: ehack78@gmail.com">
@@ -14,13 +14,13 @@
         <i class="fab fa-github fa-2x" style="color: black"></i>
       </a>
     <a href="https://linkedin.com/in/emma-hack">
-     <i class="fab fa-linkedin fa-2x" style="color: blue"></i>
+      <i class="fab fa-linkedin fa-2x" style="color: blue"></i>
     </a>
     <a href="https://twitter.com/emmDevs">
-     <i class="fab fa-twitter fa-2x" style="color: blue"></i>
+      <i class="fab fa-twitter fa-2x" style="color: blue"></i>
     </a>  
   </div>
-  </div>
+  </footer>
 </template>
 
 <script>

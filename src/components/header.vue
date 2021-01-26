@@ -3,13 +3,13 @@
       <ul>
           <li>
               <router-link class="list" to="/" exact>Home</router-link>
-            </li>
-              <li>
+          </li>
+          <li>
               <router-link class="list" to="/about" exact>About Me</router-link>
-              </li>
-              <li>
+          </li>
+          <li>
               <router-link class="list" to="/projects" exact>Projects</router-link>
-              </li>
+          </li>
             
       </ul>
   </nav>
