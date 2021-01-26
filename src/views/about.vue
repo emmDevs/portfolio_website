@@ -13,7 +13,7 @@
             <div class="Cabout">
                 <p class="Cabout_text">When I'm not coding I love being outdoors, especially at the beach with my pups!  I am an avid reader, Love cooking (and eating..) and enjoy crocheting funky blankets to help me relax (and keep me cosy!). 
                 </p> 
-                <p class="Cabout_text"><b>Want to know more?</b>  Follow my <a class="link" href="https://www.myroadtocode.co.uk"><b>blog</b></a>, send me an <a class="link" href="mailto: ehack78@gmail.com"><b>email</b></a> or connect with me on <a class="link" href="https://linkedin.com/in/emma-hack"><b>Linkedin</b></a> using the icons below. 
+                <p class="Cabout_text"><b>Want to know more?</b>  Follow my <a class="link" href="http://www.myroadtocode.co.uk"><b>blog</b></a>, send me an <a class="link" href="mailto: ehack78@gmail.com"><b>email</b></a> or connect with me on <a class="link" href="https://linkedin.com/in/emma-hack"><b>Linkedin</b></a> using the icons below. 
                 </p>
                 <a href="http://www.myroadtocode.co.uk">
                     <button class="blog_button">Read My Blog Here!</button>
