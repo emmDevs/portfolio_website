@@ -100,7 +100,7 @@ h2{
 }
 
 .developer{
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 0px;
 }
 }

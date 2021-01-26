@@ -21,7 +21,7 @@
                   <li>Google Charts Library</li>
                 </ul>
               <p>This was a group project that was planned in an Agile method and written collaboratively over a 6 day period.</p>
-            <a href="https://github.com/emmDevs/pokeJson.git" style="color:black">GitHub Link to Repo</a>
+            <a class="github_link" href="https://github.com/emmDevs/pokeJson.git" style="color:black">GitHub Link to Repo</a>
         </div>
         <div class="C">
           <h3 class="title">On Top Of The World</h3>
@@ -42,7 +42,7 @@
                   <li>PostgreSQL</li>
                 </ul>
               <p>This was a solo project that was planned and written over a 6 day period.</p>
-            <a href="https://github.com/emmDevs/on_top_of_the_world.git" style="color: black">Github Link to Repo</a>
+            <a class ="github_link" href="https://github.com/emmDevs/on_top_of_the_world.git" style="color: black">Github Link to Repo</a>
         </div>
       </section>
   </div>
@@ -80,6 +80,16 @@ export default {
 .title{
   margin-bottom: 0;
   margin-top: 36px;
+}
+
+.github_link{
+  text-decoration: none;
+  padding: 5px;
+    
+}
+
+.github_link:hover{
+  background-color: orange;
 }
 
 @media (min-width: 1080px){

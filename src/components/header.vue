@@ -44,7 +44,7 @@ export default {
 }
 
 .list.router-link-active{
-  color: black;
+  color: orange;
 }
 
 @media (min-width: 1080px){
@@ -68,9 +68,9 @@ export default {
   margin-left: 36px;
 }
 
-.list.router-link-active{
+/* .list.router-link-active{
   color: black;
-}
+} */
 }
 
 
