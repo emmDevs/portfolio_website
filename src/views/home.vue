@@ -74,7 +74,7 @@ h2{
   height: 500px;
   width: 500px;
   border-radius: 250px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
 
 }
@@ -82,7 +82,7 @@ h2{
 .Amy-name{
   grid-area: A;
   font-size: 90px;
-  margin-top: 100px;
+  margin-top: 125px;
   }
 
 h2{
