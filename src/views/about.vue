@@ -2,12 +2,12 @@
     <div>
         <section class="parent-container">
             <div class="Aphoto"> 
-                <a  href="https://codeclan.com"><img class="photo-about1" src="@/assets/codeclan.png"/></a>
+                <a  href="https://codeclan.com"><img class="photo-about1" src="@/assets/codeclan.png" alt="Codeclan logo."/></a>
             </div>
             <div class="Babout"> 
-                <p>I am an Edinburgh based Software Developer with a creative and problem solving background, which gives me strong transferrable skills to take into my career in programming.  Coding really fires my imagination and I enjoy all aspects of developing, in particular the problem solving aspect of it.  I love nothing more than solving a complex issue and seeing my code run! In October 2020 I started on 
+                <p>I am an Edinburgh based Software Developer with a creative and problem solving background, which gives me strong transferrable skills to take into my career in programming.  Coding really fires my imagination and I enjoy all aspects of developing, in particular the problem solving aspect of it.  I love nothing more than solving a complex issue and seeing my code run!  In February 2021 I Graduated from  
                     <b>Codeclan's Professional Software Development 
-                    </b>Course.  This is an Industry Led 16 week immersive course which is SQA approved and involved more than 800 hours of coding.  It teaches software fundamentals and skills including Python, Javascript, Java, HTML, CSS, Agile methodologies, Restful API's and UX design.  With a strong emphasis on the SOLID principles of OOP and Test Driven Development I have used the following technologies and frameworks; GitHub, PostgreSQL, MongoDB, Express, Flask, Node.js, Vue.js.   
+                    </b>Course.  This is an Industry Led 16 week immersive course which is SQA approved and involved more than 800 hours of coding.  It teaches software fundamentals and skills including Python, Javascript, Java, HTML, CSS, Agile methodologies, Restful API's and UX design.  With a strong emphasis on the SOLID principles of OOP and Test Driven Development I have used the following technologies and frameworks; GitHub, PostgreSQL, MongoDB, Express, Flask, Node.js, Vue.js, React, Java, Spring Boot, HTML and CSS</HTML:5>.   
                 </p>
             </div>
             <div class="Cabout">
@@ -20,7 +20,7 @@
                 </a>
             </div>
             <div class="Dphoto">
-                <img class="photo-about" src="@/assets/Beach.jpeg"/> 
+                <img class="photo-about" src="@/assets/Beach.jpeg" alt="Belhaven beach, Dunbar with moody sky."/> 
             </div>  
         </section>
     </div>
@@ -132,11 +132,31 @@ export default {
     width: 550px; */
 }
 
+.photo-about1:hover{
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: auto;
+    height: 250px;
+    display: block;
+    z-index: 999;
+}
+
 .photo-about{
     height:300px;
     width: 450px;
     padding: 50px;
     margin-left: 50px;
+}
+
+.photo-about:hover{
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: auto;
+    height: 600px;
+    display: block;
+    z-index: 999;
 }
 
 .Cabout_text{

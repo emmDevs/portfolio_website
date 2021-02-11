@@ -10,7 +10,7 @@
       </div>
       </div>
       <div>
-        <img class="Bphoto" src="@/assets/IMG_2876.jpeg">
+        <img class="Bphoto" src="@/assets/IMG_2876.jpeg" alt="close up headshot of Emma Hack.">
       </div>
     </div>
   </div>

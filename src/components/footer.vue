@@ -5,19 +5,19 @@
     </div>
   <div class="icon-container">
     <a href="mailto: ehack78@gmail.com">
-      <i class="far fa-envelope fa-2x" style="color: orange"></i>
+      <i class="far fa-envelope fa-2x" style="color: orange" alt="email."></i>
     </a>
     <a href="http://www.myroadtocode.co.uk/">
-      <i class="fab fa-blogger-b fa-2x" style="color: orange"></i>
+      <i class="fab fa-blogger-b fa-2x" style="color: orange" alt="link to blog."></i>
     </a>
       <a href="https://github.com/emmDevs">
-        <i class="fab fa-github fa-2x" style="color: orange"></i>
+        <i class="fab fa-github fa-2x" style="color: orange" alt="link to github."></i>
       </a>
     <a href="https://linkedin.com/in/emma-hack">
-      <i class="fab fa-linkedin fa-2x" style="color: orange"></i>
+      <i class="fab fa-linkedin fa-2x" style="color: orange" alt="linkedin."></i>
     </a>
     <a href="https://twitter.com/emmDevs">
-      <i class="fab fa-twitter fa-2x" style="color: orange"></i>
+      <i class="fab fa-twitter fa-2x" style="color: orange" alt="twitter."></i>
     </a>  
   </div>
   </footer>
